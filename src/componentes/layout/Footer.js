@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer className='footer'>
         Portafolio Carlos Eduardo Cardona &copy; - Fullstack Developer
     </footer>
   )
