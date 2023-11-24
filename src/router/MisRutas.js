@@ -24,6 +24,11 @@ export const MisRutas = () => {
                   <Route path='/Servicios' element={<Servicios/>}/>
                   <Route path='/Curriculum' element={<Curriculum/>}/>
                   <Route path='/Contacto' element={<Contacto/>}/>
+                  <Route path='*' element={
+                    <div className='page'>
+                      <h1 className='heading'>Error 401. Not found</h1>
+                    </div>              
+                    } />
               </Routes>
             </section>
             

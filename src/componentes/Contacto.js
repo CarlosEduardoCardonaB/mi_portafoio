@@ -10,7 +10,7 @@ export const Contacto = () => {
         <input type='text' placeholder='Apellidos'/>
         <input type='text' placeholder='Email'/>
         <textarea type='text' placeholder='Motivo de contacto'/>
-        <inpu type="submit" value="Enviar" />
+        <input type="submit" value="Enviar" />
       </form>
     </div>
   )
