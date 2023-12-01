@@ -7,6 +7,7 @@ import {Curriculum} from '../componentes/Curriculum';
 import {Contacto} from '../componentes/Contacto';
 import { HeaderNav } from '../componentes/layout/HeaderNav';
 import { Footer } from '../componentes/layout/Footer';
+import { Proyecto } from '../componentes/Proyecto';
 
 
 export const MisRutas = () => {
@@ -24,9 +25,10 @@ export const MisRutas = () => {
                   <Route path='/Servicios' element={<Servicios/>}/>
                   <Route path='/Curriculum' element={<Curriculum/>}/>
                   <Route path='/Contacto' element={<Contacto/>}/>
+                  <Route path='/Proyecto/:id' element={<Proyecto/>}/>
                   <Route path='*' element={
                     <div className='page'>
-                      <h1 className='heading'>Error 401. Not found</h1>
+                      <h1 className='heading'>Error 404. Not found</h1>
                     </div>              
                     } />
               </Routes>

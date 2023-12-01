@@ -19,6 +19,7 @@ export const Portafolio = () => {
             <span>{trabajo.categorias}</span>
             <h2>{trabajo.nombre}</h2>
             <h3>{trabajo.tecnologias}</h3>
+            <h2><Link to={"/proyecto/" + trabajo.id}>{trabajo.nombre}</Link></h2>
             <h3><Link to={trabajo.url}> Visita mi perfil de linkedin</Link></h3>
           </article>
         ))
